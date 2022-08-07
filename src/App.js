@@ -1,5 +1,6 @@
 import './App.css';
 import Greet from './components/Greet';
+import Message from './components/Message';
 import Welcome from './components/Welcome';
 
 function App() {
@@ -12,10 +13,12 @@ function App() {
         <button>Who is he?</button>
       </Greet>
       <Greet name="Fazi" heroName="Bapakman" />
-
+      <hr />
       <Welcome name="Zafi" heroName="Suparman" />
       <Welcome name="Ifaz" heroName="Sudirman" />
       <Welcome name="Fazi" heroName="Bapakman" />
+      <hr />
+      <Message />
     </div>
   );
 }
