@@ -1,4 +1,5 @@
 import './App.css';
+import Counter from './components/Counter';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Welcome from './components/Welcome';
@@ -19,6 +20,8 @@ function App() {
       <Welcome name="Fazi" heroName="Bapakman" />
       <hr />
       <Message />
+      <hr />
+      <Counter />
     </div>
   );
 }
