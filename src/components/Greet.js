@@ -1,10 +1,20 @@
-const Greet = (props) => {
+const Greet = props => {
+  const {name, heroName} = props;
   return (
     <div>
-      <h1>Hey, {props.name} you're The {props.heroName}</h1>
+      <h1>Hey, {name} you're The {heroName}</h1>
       {props.children}
     </div>
   )
 }
+
+// OTHER WAY TO DESTRUCTURE PROPS
+// const Greet = ({name, heroName}) => {
+//   return (
+//     <div>
+//       <h1>Hey, {name} you're The {heroName}</h1>
+//     </div>
+//   )
+// }
 
 export default Greet;
