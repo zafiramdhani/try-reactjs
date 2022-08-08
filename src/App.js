@@ -1,4 +1,6 @@
 import './App.css';
+import ClickClass from './components/ClickClass';
+import ClickFunction from './components/ClickFunction';
 import Counter from './components/Counter';
 import Greet from './components/Greet';
 import Message from './components/Message';
@@ -26,6 +28,12 @@ function App() {
       <hr />
       <h4>setState</h4>
       <Counter />
+      <hr />
+      <h4>Event Handling in Functional Component</h4>
+      <ClickFunction />
+      <hr />
+      <h4>Event Handling in Class Component</h4>
+      <ClickClass />
     </div>
   );
 }
